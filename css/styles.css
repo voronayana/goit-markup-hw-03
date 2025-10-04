@@ -18,11 +18,46 @@ a{
     text-decoration: none;
 }
 
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+address {
+    font-style: normal;
+}
+
+img {display: block;}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
+}
+
+
 .container {
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
+
+.section {
+    padding: 120px 0;
+}
+
+.wrapper {
+  max-width: 1440px;  
+  margin: 0 auto;    
+}
+
 
 /*header*/
 
@@ -71,37 +106,6 @@ color: #4d5ae5;
     color: #2e2f42;
 }
 
-.footer-logo .logo-part {
-    color: #f4f4fd;
-}
-
-.main-title {
-    background-color: #2e2f42;
-}
-.main-text {
-font-weight: 700;
-font-size: 56px;
-line-height: 1.07;
-letter-spacing: 0.02em;
-text-align: center;
-color: #fff;
-}
-.main-btn {
-background: #4d5ae5;
-color: #fff;
-font-family: "Roboto", sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-cursor: pointer;
-}
-.main-btn:hover, 
-.main-btn:focus {
-background: #404bbf;
-}
-
-
 .nav-link {
 padding: 24px 0;
 display: block;
@@ -134,6 +138,63 @@ color: #434455;
 }
 
 
+/*main секція 1*/
+
+.main-title {
+  background-color: #2e2f42;
+  height: 648px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+ }
+
+.main-text {
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+
+color: #fff;
+margin: 0 auto 48px auto; 
+max-width: 496px;
+}
+
+.main-btn {
+background: #4d5ae5;
+color: #fff;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+cursor: pointer;
+margin: auto;
+display: flex;
+align-items: center;
+min-width: 169px;
+min-width: 56px;
+margin: auto;
+border-radius:4px;
+padding-block: 16px;
+padding-inline: 32px;
+}
+
+
+.main-btn:hover, 
+.main-btn:focus {
+background: #404bbf;
+}
+
+
+
+.hero-conteiner {
+width: 1158px;
+padding: 0 15px;
+margin: 0 auto;
+
+}
+
+/*info секція 2*/
 
 .info-title{
 font-weight: 500;
@@ -150,6 +211,16 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
+
+.info-list {
+    display: flex;
+}
+
+.info-item {
+  width: 264px;  
+}
+
+/* hero секція 3*/
 
 .page-team {
 background: #f4f4fd;
@@ -185,6 +256,7 @@ letter-spacing: 0.02em;
 color: #434455;
 
 }
+/* Our Portfolio секція 4*/
 
 .portfolio-item {
 background: #fff;
@@ -216,9 +288,14 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
+/* footer*/
 
 .page-footer {
 background-color: #2e2f42;
+}
+
+.footer-logo .logo-part {
+    color: #f4f4fd;
 }
 
 .footer-info {
