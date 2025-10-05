@@ -293,9 +293,9 @@ background: #fff;
 border-radius: 0 0 4px 4px;
 display: flex;
 flex-direction: column;
-  text-align: left;
-  padding-bottom: 32px;
-  width: 360px;
+text-align: left;
+padding-bottom: 32px;
+width: 360px;
 overflow: hidden;
 }
 
@@ -307,6 +307,7 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
+margin-bottom: 72px;
 }
 
 .portfolio-name {
