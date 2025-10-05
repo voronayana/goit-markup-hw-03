@@ -231,6 +231,7 @@ justify-content: space-between;
 
 .page-team {
 background: #f4f4fd;
+
 }
 
 .team-content {
@@ -246,7 +247,7 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
-margin-bottom: 72px;
+margin-bottom: 48px;
 }
 
 .team-item {
@@ -296,6 +297,7 @@ flex-direction: column;
 text-align: left;
 padding-bottom: 32px;
 width: 360px;
+margin-bottom: 32px;
 overflow: hidden;
 }
 
@@ -307,8 +309,8 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
-
-margin-bottom: 8px;
+margin-bottom: 24px;
+margin-bottom: 32px;
 }
 
 .portfolio-name {
@@ -332,7 +334,7 @@ margin-bottom: 8px;
 .portfolio-list {
 display: flex;
 justify-content: center;
-gap: 48px 24px;
+gap: 24px;
 padding: 72px 0;
 flex-wrap: wrap;
 }
