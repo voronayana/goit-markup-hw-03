@@ -352,11 +352,11 @@ background-color: #2e2f42;
 padding: 100px 0;
 }
 
-.footer-logo .logo-part {
+.footer-link .logo-part {
     color: #f4f4fd;
 }
 
-.footer-logo{
+.footer-link{
 display: inline-block;
 margin-bottom: 16px;
 font-size: 18px;
