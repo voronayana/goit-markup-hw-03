@@ -129,7 +129,7 @@ margin-left: auto;
 }
 
 .contacts-link {
-padding: 24pz 0;
+padding: 24px 0;
 display: block;
 font-size: 16px;
 line-height: 1.5;
@@ -171,7 +171,8 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
 min-width: 169px;
-min-width: 56px;
+height: 56px;
+
 border-radius:4px;
 padding: 16px 32px;
 border: none;
@@ -182,7 +183,7 @@ border: none;
 background: #404bbf;
 }
 
-/*.hero-conteiner {
+/*.hero-container {
 width: 1158px;
 padding: 0 15px;
 margin: 0 auto;
@@ -323,12 +324,12 @@ color: #434455;
 
 .portfolio-list {
 display: flex;
-gap: 24px;
 justify-content: center;
 gap: 48px 24px;
 padding: 72px 0;
-flex-wrap: wrap;  
+flex-wrap: wrap;
 }
+
 .portfolio-content {
   padding: 32px 16px;
   display: flex;
