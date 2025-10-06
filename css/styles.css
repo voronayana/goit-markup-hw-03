@@ -143,10 +143,10 @@ color: #434455;
 .main-title {
   background-color: #2e2f42;
   padding: 188px 0;
-  display: flex;
+/*  display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: center;*/
  }
 
 .main-text {
@@ -157,6 +157,7 @@ letter-spacing: 0.02em;
 color: #fff;
 margin: 0 auto 48px auto; 
 max-width: 496px;
+text-align: center;
 }
 
 .main-btn {
@@ -183,12 +184,13 @@ border: none;
 background: #404bbf;
 }
 
+/*
 .hero-container {
 width: 1158px;
 padding: 0 15px;
 margin: 0 auto;
 }
-
+*/
 /*info секція 2*/
 
 
@@ -212,20 +214,19 @@ color: #434455;
 .info-list {
 display: flex;
 gap: 24px;
-justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .info-item {
-    flex-basis: calc((100% - 72px) / 4);
+flex-basis: calc((100% - 72px) / 4);
   
 }
+/*
 .info-section {
   display: flex;
   gap: 24px;
   justify-content: space-between;
   flex-wrap: wrap;  
-}
+}*/
 
 /* hero секція 3*/
 
@@ -260,7 +261,7 @@ box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.08),
               0px 1px 1px rgba(0, 0, 0, 0.16),
               0px 1px 6px rgba(0, 0, 0, 0.08);
 text-align: center;
-width: 264px;
+flex-basis: calc((100% - 72px) / 4);
 }
 
 .team-name {
@@ -285,22 +286,13 @@ margin-bottom: 0;
 .team-list {
 display: flex;
 gap: 24px;
-justify-content: center;
-padding: 72px 0;
-flex-wrap: wrap; 
 }
 
 /* Our Portfolio секція 4*/
 
 .portfolio-item {
 background: #fff;
-border-radius: 0 0 4px 4px;
-display: flex;
-flex-direction: column;
-text-align: left;
-padding-bottom: 32px;
-width: 360px;
-margin-bottom: 32px;
+flex-basis: calc((100% - 72px) / 6);
 /*overflow: hidden;*/
 }
 
@@ -309,10 +301,11 @@ margin-bottom: 32px;
 }
 
 .portfolio-content {
-    padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
 }
+
 .portfolio-title {
 font-weight: 700;
 font-size: 36px;
@@ -339,27 +332,19 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-margin-bottom: 8px;
 }
 
 .portfolio-list {
 display: flex;
-justify-content: center;
 gap: 24px;
-padding: 72px 0;
 flex-wrap: wrap;
 row-gap: 48px;
 }
 
 .portfolio-content {
-  padding: 32px 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px; 
-  border: 1px solid #e7e9fc;
-  border-top: none;
-  width: 360px;
-  margin-bottom: 8px;
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
 }
 
 
@@ -375,17 +360,18 @@ padding: 100px 0;
 }
 
 .footer-link .logo-part {
-    color: #f4f4fd;
+color: #f4f4fd;
+
 }
 
 .footer-link{
 display: inline-block;
 margin-bottom: 16px;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px; 
 }
 
 
